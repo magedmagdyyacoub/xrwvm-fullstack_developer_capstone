@@ -12,7 +12,7 @@ urlpatterns = [
     path(route='login', view=views.login_user, name='login'),
     # path for logout
      path(route='logout', view=views.logout_request, name='logout'),
-
+    path('get_cars', views.get_cars, name='getcars'),
     # path for dealer reviews view
     # path(route='dealer_reviews', view=views.get_dealer_reviews, name='dealer_reviews'),
 
